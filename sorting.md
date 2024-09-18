@@ -1,17 +1,9 @@
 ## Sorting Algorithms Cheat Sheet
 
 ### Basic Sorting Algorithms
-- **Bubble Sort**  
-  - **Action:** Swap adjacent elements until sorted  
-  - **Time Complexity:** \(O(n^2)\)  
-
-- **Selection Sort**  
-  - **Action:** Select the smallest element and swap to the front  
-  - **Time Complexity:** \(O(n^2)\)  
-
-- **Insertion Sort**  
-  - **Action:** Insert each element in its correct position  
-  - **Time Complexity:** \(O(n^2)\)  
+- **Bubble Sort** Swap adjacent elements until sorted  \(O(n^2)\)  
+- **Selection Sort**  Select the smallest element and swap to the front  \(O(n^2)\)  
+- **Insertion Sort**   Insert each element in its correct position   \(O(n^2)\)  
 
 ### Efficient Sorting Algorithms
 - **Merge Sort**
