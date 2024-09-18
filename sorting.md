@@ -2,8 +2,8 @@
 
 ### Basic Sorting Algorithms
 - [x] Bubble Sort
-- Selection Sort
-- Insertion Sort
+- [ ] Selection Sort
+- [x] Insertion Sort
 
 ### Efficient Sorting Algorithms
 - Merge Sort
@@ -17,7 +17,7 @@
 
 
 
-## What is Bubble Sort?  
+# What is Bubble Sort?  
 A basic sorting algorithm that compares and swaps adjacent elements. 🔄
 
 ### How It Works  
@@ -65,3 +65,46 @@ After Loop 3, no swaps occurred, indicating that all elements are in the correct
 
 ### How to Remember  
 **"Bubble Sort: Swap Neighbors!"** 🛁➡️ This phrase helps you recall that in Bubble Sort, you only swap adjacent elements to sort the list.
+
+# What is Insertion Sort?  
+A simple sorting algorithm that builds the final sorted array one element at a time. 🔄
+
+### How It Works  
+1. Start with the second element (assume the first is sorted).
+2. Compare it to the elements before it.
+3. Shift larger elements one position to the right.
+4. Insert the current element in its correct position.
+5. Repeat until the entire list is sorted.
+
+### Example Visualization  
+Consider the list: **[5, 3, 8, 4]**
+
+**Loop 1:**  
+- Start with the second element (3).  
+- Compare 3 with 5 → **Shift** 5 → [5, 5, 8, 4]  
+- Insert 3 → [3, 5, 8, 4]  
+
+**Loop 2:**  
+- Move to the next element (8).  
+- Compare 8 with 5 → No Shift → [3, 5, 8, 4]  
+- 8 is already in the correct position.  
+
+**Loop 3:**  
+- Move to the last element (4).  
+- Compare 4 with 8 → **Shift** 8 → [3, 5, 8, 8]  
+- Compare 4 with 5 → **Shift** 5 → [3, 5, 5, 8]  
+- Insert 4 → [3, 4, 5, 8]  
+
+After all loops, the list is sorted: **[3, 4, 5, 8]**! ✅
+
+### Time Complexity  
+- **Best Case:** \(O(n)\) (already sorted)  
+- **Average/Worst Case:** \(O(n^2)\)  
+
+### When to Use  
+- Small or partially sorted lists 📋  
+- When memory space is limited 💾  
+- Adaptive situations (where elements are often added) ➕  
+
+### How to Remember  
+**"Insertion Sort: Insert in Place!"** 🛠️➡️ This phrase helps you recall that Insertion Sort places each element in its correct position within the sorted part of the list.
