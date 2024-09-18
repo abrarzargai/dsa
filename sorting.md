@@ -17,7 +17,7 @@
 
 
 
-# What is Bubble Sort?  
+# What is Bubble Sort?  (Swap Neighbors)
 A basic sorting algorithm that compares and swaps adjacent elements. 🔄
 
 ### How It Works  
@@ -66,7 +66,7 @@ After Loop 3, no swaps occurred, indicating that all elements are in the correct
 ### How to Remember  
 **"Bubble Sort: Swap Neighbors!"** 🛁➡️ This phrase helps you recall that in Bubble Sort, you only swap adjacent elements to sort the list.
 
-# What is Insertion Sort?  
+# What is Insertion Sort?  (sort the one element at a time)
 A simple sorting algorithm that builds the final sorted array one element at a time. 🔄
 
 ### How It Works  
