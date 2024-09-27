@@ -39,17 +39,17 @@
 #### Understanding O(log n)
  Logarithmic time complexity \( O(\log n) \) measures how many times we can divide a number by 2 until we reach 1.
 
-### Example: \( n = 32 \)
-For \( n = 32 \):
+### Example: ( n = 32\)
+For ( n = 32 ):
 - **Calculation:** 
-  - \( \log_2(32) = 5 \)
-This means we can halve \( 32 \) **5 times** to reach 1:
+  - ( log_2(32) = 5 )
+This means we can halve ( 32 ) **5 times** to reach 1:
 
-1. \( 32 \div 2 = 16 \)
-2. \( 16 \div 2 = 8 \)
-3. \( 8 \div 2 = 4 \)
-4. \( 4 \div 2 = 2 \)
-5. \( 2 \div 2 = 1 \)
+1. ( 32 \div 2 = 16 )
+2. ( 16 \div 2 = 8 )
+3. ( 8 \div 2 = 4 )
+4. ( 4 \div 2 = 2 )
+5. ( 2 \div 2 = 1 )
 
 In total, it takes **5 iterations** to get from \( 32 \) to \( 1 \). This is how logarithmic time complexity works!
 
