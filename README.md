@@ -24,7 +24,7 @@
 - **Concept**: Represents the average-case complexity of an algorithm
 - **Examples**: θ(n) (Linear Time), θ(n log n) (Log-Linear Time)
 
-## Order of time  Complexities
+## Order of time  Complexities:
 
 | Complexity  | Meaning                          | Example               |
 |-------------|----------------------------------|-----------------------|
@@ -33,6 +33,60 @@
 | O(n)        | Runs for each input item         | Loop through a list   |
 | O(n log n)  | Runs faster than n²              | Efficient sorting     |
 | O(n²)       | Runs for each item and each item | Bubble sort           | 
+
+## Example for Complexities:
+
+#### Understanding O(log n)
+ Logarithmic time complexity \( O(\log n) \) measures how many times we can divide a number by 2 until we reach 1.
+
+### Example: \( n = 32 \)
+For \( n = 32 \):
+- **Calculation:** 
+  - \( \log_2(32) = 5 \)
+This means we can halve \( 32 \) **5 times** to reach 1:
+
+1. \( 32 \div 2 = 16 \)
+2. \( 16 \div 2 = 8 \)
+3. \( 8 \div 2 = 4 \)
+4. \( 4 \div 2 = 2 \)
+5. \( 2 \div 2 = 1 \)
+
+In total, it takes **5 iterations** to get from \( 32 \) to \( 1 \). This is how logarithmic time complexity works!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 1. Sorting Algorithms
