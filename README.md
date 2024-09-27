@@ -24,7 +24,7 @@
 - **Concept**: Represents the average-case complexity of an algorithm
 - **Examples**: θ(n) (Linear Time), θ(n log n) (Log-Linear Time)
 
-## Order of time  Complexities:
+# Order of time  Complexities:
 
 | Complexity  | Meaning                          | Example               |
 |-------------|----------------------------------|-----------------------|
@@ -34,12 +34,12 @@
 | O(n log n)  | Runs faster than n²              | Efficient sorting     |
 | O(n²)       | Runs for each item and each item | Bubble sort           | 
 
-## Example for Complexities:
+# Example for Complexities:
 
-#### Understanding O(log n)
+## Understanding O(log n)
  Logarithmic time complexity \( O(\log n) \) measures how many times we can divide a number by 2 until we reach 1.
 
-### Example: ( n = 32\)
+#### Example: ( n = 32\)
 For ( n = 32 ):
 - **Calculation:** 
   - ( log_2(32) = 5 )
@@ -52,6 +52,21 @@ This means we can halve ( 32 ) **5 times** to reach 1:
 5. ( 2 \div 2 = 1 )
 
 In total, it takes **5 iterations** to get from \( 32 \) to \( 1 \). This is how logarithmic time complexity works!
+
+
+## Understanding O(n)
+
+Example: If you have an array of 5 items, the algorithm will iterate **5 times** once for each item. 
+ 
+## Understanding O(n²)
+
+Example: If you have an array of 5 items, the algorithm will iterate **25 times**—5 for each item. 
+ 
+
+## Understanding O(1)
+In \( O(1) \) time complexity, the time taken is constant, regardless of the input size \( n \).
+### Example:
+Accessing an element in an array by index takes the same time, no matter how large the array is. It’s always a single operation.
 
 
 
