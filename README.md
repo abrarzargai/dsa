@@ -1,13 +1,11 @@
 # dsa
 
-
-
 # Data Structures and Algorithms (DSA) Roadmap
 
 # Learn About Complexities
 
 ## Time Complexity
-- **Concept**: Measures the amount of time an algorithm takes to complete as a function of the input size.
+- **Concept**: Measures the amount of time an algorithm takes to complete as a function of the input size. OR relation between input size and execution time
 - **Examples**: O(1), O(log n), O(n), O(n log n), O(n²)
 
 ## Space Complexity
@@ -15,17 +13,26 @@
 - **Examples**: O(1), O(n), O(n²)
 
 ## Big-O Notation (Ο)
-- **Concept**: Describes the upper bound of an algorithm's time complexity, focusing on the worst-case scenario.
+- **Concept**: Represents the worst-case complexity of an algorithm
 - **Examples**: O(1) (Constant Time), O(n) (Linear Time), O(n log n) (Log-Linear Time), O(n²) (Quadratic Time)
 
 ## Omega Notation (Ω)
-- **Concept**: Describes the lower bound of an algorithm's time complexity, focusing on the best-case scenario.
+- **Concept**: Represents the best-case complexity of an algorithm
 - **Examples**: Ω(1) (Constant Time), Ω(n) (Linear Time)
 
 ## Theta Notation (θ)
-- **Concept**: Represents the average-case complexity of an algorithm, providing both the upper and lower bounds.
+- **Concept**: Represents the average-case complexity of an algorithm
 - **Examples**: θ(n) (Linear Time), θ(n log n) (Log-Linear Time)
 
+## Order of time  Complexities
+
+| Complexity  | Meaning                          | Example               |
+|-------------|----------------------------------|-----------------------|
+| O(1)        | Runs once                        | Get one list item     |
+| O(log n)    | Grows slowly                     | Binary search         |
+| O(n)        | Runs for each input item         | Loop through a list   |
+| O(n log n)  | Runs faster than n²              | Efficient sorting     |
+| O(n²)       | Runs for each item and each item | Bubble sort           | 
 
 
 ## 1. Sorting Algorithms
