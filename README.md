@@ -53,62 +53,73 @@ This means we can halve ( 32 ) **5 times** to reach 1:
 
 In total, it takes **5 iterations** to get from \( 32 \) to \( 1 \). This is how logarithmic time complexity works!
 
-
 ## Understanding O(n)
 
 Example: If you have an array of 5 items, the algorithm will iterate **5 times** once for each item. 
- 
+
 ## Understanding O(n²)
 
 Example: If you have an array of 5 items, the algorithm will iterate **25 times**—5 for each item. 
- 
 
 ## Understanding O(1)
-In \( O(1) \) time complexity, the time taken is constant, regardless of the input size \( n \).
-### Example:
+In O(1) time complexity, the time taken is constant, regardless of the input size \( n \).
 Accessing an element in an array by index takes the same time, no matter how large the array is. It’s always a single operation.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 1. Sorting Algorithms
+# 1. Sorting Algorithms
 ### Basic Sorting Algorithms
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
+## Sorting Algorithms
+
+### 1. Bubble Sort
+**Definition:** Repeatedly swaps adjacent elements if they’re in the wrong order.
+**Time Complexity:** Best: O(n) | Average: O(n²) | Worst: O(n²)
+
+
+### 2. Selection Sort
+**Definition:** Finds the smallest element and swaps it with the first unsorted one.
+**Time Complexity:** Best: O(n²) | Average: O(n²) | Worst: O(n²)
+
+
+### 3. Insertion Sort
+**Definition:** Inserts each element into its correct position in the sorted part.
+**Time Complexity:** Best: O(n) | Average: O(n²) | Worst: O(n²)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Efficient Sorting Algorithms
 - Merge Sort
